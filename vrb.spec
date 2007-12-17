@@ -13,7 +13,6 @@ Patch1: vrb-0.5.0-gcc-opt.patch
 License: LGPL
 Group: System/Libraries
 Url: http://vrb.slashusr.org/
-BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
 The Virtual Ring Buffer (VRB) is an implementation of a character FIFO
