@@ -77,9 +77,9 @@ cp -p vrb/man/man3/*.3 %buildroot%_mandir/man3
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%post -n %libname -p  /sbin/ldconfig
+%post -n %libname -p /sbin/ldconfig
 
-%postun -n %libname -p  /sbin/ldconfig
+%postun -n %libname -p /sbin/ldconfig
 
 %files
 %defattr(-,root,root)
