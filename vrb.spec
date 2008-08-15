@@ -1,6 +1,6 @@
 %define name vrb
-%define version 0.5.0
-%define release %mkrel 4
+%define version 0.5.1
+%define release %mkrel 1
 %define major 0
 %define libname %mklibname %name %major
 
