@@ -12,7 +12,7 @@ Source0: http://vrb.slashusr.org/%{name}-%{version}.tar.bz2
 Patch1: vrb-0.5.0-gcc-opt.patch
 License: LGPL
 Group: System/Libraries
-Url: http://vrb.slashusr.org/
+Url: https://vrb.slashusr.org/
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
